@@ -1,0 +1,43 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+  min-height: 100vh;
+}
+
+h1 {
+  font-weight: 600;
+  color: #333;
+}
+
+.list-group-item {
+  transition: transform 0.2s, background 0.3s;
+}
+
+.list-group-item:hover {
+  transform: scale(1.02);
+  background: #f1f1f1;
+}
+
+.done-task {
+  text-decoration: line-through;
+  background: #d1ffd1 !important;
+  color: #555;
+}
+
+.progress {
+    width: 80%;
+    margin: 20px auto;
+    background: #333;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 25px;
+    background: #00bcd4;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out;
+}
